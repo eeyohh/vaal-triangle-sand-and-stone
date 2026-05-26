@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Vaal Triangle Sand and Stone | Quality Sand, Stone, Topsoil & Compost | Vanderbijlpark</title>
+    <meta name="description" content="Vaal Triangle Sand and Stone supplies premium building sand, plaster sand, crusher sand, river sand, stone, topsoil, and compost in Vanderbijlpark and the Vaal Triangle. Competitive prices, reliable delivery. Get a free quote today.">
+    <meta name="keywords" content="Vaal Triangle Sand and Stone, sand suppliers Vanderbijlpark, building sand, plaster sand, topsoil, compost, crusher sand, river sand, stone">
+    <meta name="author" content="Vaal Triangle Sand and Stone">
+    
+    <!-- SSL / HTTPS Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    
+    <!-- Font Awesome & Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #ffffff;
+            color: #1a2c2e;
+            line-height: 1.5;
+            scroll-behavior: smooth;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        :root {
+            --primary: #2e7d32;
+            --primary-dark: #1b5e20;
+            --secondary: #1e3a8a;
+            --dark: #1e293b;
+            --light-bg: #f8fafc;
+            --gray: #64748b;
+            --shadow: 0 10px 25px -5px rgba(0,0,0,0.05), 0 8px 10px -6px rgba(0,0,0,0.02);
+        }
+
+        header {
+            background: white;
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-flex {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 16px 0;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo img {
+            height: 60px;
+            width: auto;
+            max-width: 180px;
+        }
+
+        .logo-text h1 {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--secondary);
+            letter-spacing: -0.5px;
+        }
+
+        .logo-text span {
+            color: var(--primary);
+        }
+
+        .logo-text p {
+            font-size: 0.7rem;
+            color: var(--gray);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            flex-wrap: wrap;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 600;
+            transition: 0.2s;
+        }
+
+        .nav-links a:hover, .nav-links a.active {
+            color: var(--primary);
+        }
+
+        .header-phone {
+            background: var(--primary);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: 0.2s;
+        }
+
+        .header-phone:hover {
+            background: var(--primary-dark);
+            transform: scale(1.02);
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('images/quarry-loader.jpg');
+            background-size: cover;
+            background-position: center 30%;
+            padding: 100px 0;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+
+        .trust-badges {
+            background: var(--secondary);
+            color: white;
+            padding: 16px 0;
+        }
+
+        .trust-flex {
+            display: flex;
+            justify-content: center;
+            gap: 48px;
+            flex-wrap: wrap;
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 600;
+        }
+
+        .trust-item i {
+            font-size: 1.4rem;
+            color: var(--primary);
+        }
+
+        section {
+            padding: 70px 0;
+            border-bottom: 1px solid #eef2f6;
+        }
+
+        .section-title {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--secondary);
+            margin-bottom: 15px;
+        }
+
+        .section-title:after {
+            content: '';
+            display: block;
+            width: 70px;
+            height: 4px;
+            background: var(--primary);
+            margin-top: 12px;
+            border-radius: 4px;
+        }
+
+        .section-sub {
+            color: var(--gray);
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 32px;
+            margin-top: 20px;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            border: 1px solid #eef2f6;
+            transition: 0.3s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 30px -12px rgba(0,0,0,0.15);
+        }
+
+        .product-img {
+            height: 220px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .product-card h3 {
+            padding: 20px 20px 10px;
+            font-size: 1.4rem;
+            color: var(--secondary);
+        }
+
+        .product-card p {
+            padding: 0 20px 15px;
+            color: var(--gray);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .feature-card {
+            background: var(--light-bg);
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .feature-card i {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+
+        .feature-card h3 {
+            margin-bottom: 15px;
+            color: var(--secondary);
+        }
+
+        .map-container {
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            margin-top: 30px;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 350px;
+            border: 0;
+        }
+
+        .contact-flex {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 48px;
+            margin-top: 30px;
+        }
+
+        .contact-form, .contact-info {
+            flex: 1;
+            background: var(--light-bg);
+            padding: 32px;
+            border-radius: 24px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        input, textarea, select {
+            width: 100%;
+            padding: 14px 18px;
+            border: 1px solid #cbd5e1;
+            border-radius: 16px;
+            font-family: inherit;
+            font-size: 1rem;
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(46,125,50,0.1);
+        }
+
+        .checkbox-group {
+            display: flex;
+            gap: 12px;
+            margin: 20px 0;
+            align-items: flex-start;
+        }
+
+        .checkbox-group input {
+            width: 20px;
+            margin-top: 2px;
+        }
+
+        .checkbox-group label {
+            font-size: 0.85rem;
+            color: var(--gray);
+        }
+
+        .btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 12px 28px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: 0.2s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+        }
+
+        .info-detail {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin: 25px 0;
+        }
+
+        .info-detail i {
+            width: 45px;
+            height: 45px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary);
+            font-size: 1.2rem;
+        }
+
+        .whatsapp-float {
+            position: fixed;
+            bottom: 28px;
+            right: 28px;
+            background: #25D366;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            color: white;
+            text-decoration: none;
+            z-index: 999;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: 0.2s;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.08);
+            background: #20b359;
+        }
+
+        .cookie-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--dark);
+            color: white;
+            padding: 16px;
+            text-align: center;
+            z-index: 1000;
+            display: none;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+        }
+
+        footer {
+            background: var(--dark);
+            color: #94a3b8;
+            padding: 50px 0 24px;
+        }
+
+        .footer-flex {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-col h4 {
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .footer-col a {
+            color: #94a3b8;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .footer-col a:hover {
+            color: var(--primary);
+        }
+
+        .social-icons a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background: #334155;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            margin-right: 12px;
+            color: white;
+            transition: 0.2s;
+        }
+
+        .social-icons a:hover {
+            background: var(--primary);
+        }
+
+        .legal-links {
+            text-align: center;
+            padding-top: 24px;
+            border-top: 1px solid #334155;
+            font-size: 0.8rem;
+        }
+
+        .legal-links a {
+            margin: 0 12px;
+        }
+
+        @media (max-width: 800px) {
+            .hero h1 { font-size: 2rem; }
+            .header-flex { flex-direction: column; text-align: center; }
+            .nav-links { justify-content: center; }
+            .section-title:after { margin-left: auto; margin-right: auto; }
+            .section-title { text-align: center; }
+            .logo { flex-direction: column; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+<div id="cookieBanner" class="cookie-banner">
+    <span>🍪 Vaal Triangle Sand and Stone uses cookies to improve your experience. By using our site, you agree to our <a href="#" id="cookiePrivacyLink">Privacy Policy</a>.</span>
+    <button onclick="acceptCookies()">Accept</button>
+</div>
+
+<!-- WhatsApp button - linked to 079 299 1383 -->
+<a href="https://wa.me/27792991383?text=Hello%20Vaal%20Triangle%20Sand%20and%20Stone%2C%20I%20need%20a%20quote%20for%20sand%2C%20stone%2C%20topsoil%20or%20compost%20delivery." class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<header>
+    <div class="container header-flex">
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Vaal Triangle Sand and Stone Logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+            <div class="logo-text" style="display:none;">
+                <h1>VAAL TRIANGLE <span>SAND & STONE</span></h1>
+                <p>Sand • Stone • Topsoil • Compost | Vanderbijlpark</p>
+            </div>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <a href="#contact" class="header-phone"><i class="fas fa-phone-alt"></i> 079 299 1383</a>
+    </div>
+</header>
+
+<div class="trust-badges">
+    <div class="container trust-flex">
+        <div class="trust-item"><i class="fas fa-truck"></i> Reliable Delivery</div>
+        <div class="trust-item"><i class="fas fa-gem"></i> Premium Quality Materials</div>
+        <div class="trust-item"><i class="fas fa-chart-line"></i> Competitive Prices</div>
+    </div>
+</div>
+
+<main>
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Premium Sand, Stone, Topsoil & Compost<br>Delivered to Your Site</h1>
+            <p>Vaal Triangle Sand and Stone supplies high-quality building sand, plaster sand, crusher sand, river sand, stone, topsoil, and compost across Vanderbijlpark and the Vaal Triangle. Competitive pricing, reliable delivery, and exceptional service.</p>
+            <a href="#contact" class="btn"><i class="fas fa-truck"></i> Request Free Quote</a>
+            <a href="#products" class="btn" style="background: transparent; border: 2px solid white; margin-left: 12px;"><i class="fas fa-cube"></i> View Products</a>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            <p class="section-sub">Quality materials for construction, landscaping, and gardening.</p>
+            <div class="products-grid">
+                <!-- Sand Products -->
+                <div class="product-card">
+                    <div class="product-img" style="background-image: url('images/plaster-sand.jpg');"></div>
+                    <h3>Plaster Sand</h3>
+                    <p>Fine, screened sand perfect for plastering and finishing work. Provides a smooth, professional finish.</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-img" style="background-image: url('images/building-sand.jpg');"></div>
+                    <h3>Building Sand</h3>
+                    <p>General purpose sand for bricklaying, plastering, and foundations. Consistent quality.</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-img" style="background-image: url('images/river-sand.jpg');"></div>
+                    <h3>River Sand</h3>
+                    <p>Ideal for concrete mix, screed, bedding soil, and horse arenas. Washed and screened for quality.</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-img" style="background-image: url('images/crusher-sand.jpg');"></div>
+                    <h3>Crusher Sand</h3>
+                    <p>Manufactured from blue granite. Perfect for concrete mix and manufacturing of stock bricks.</p>
+                </div>
+                
+                <!-- Topsoil & Compost (NEW) -->
+                <div class="product-card">
+                    <div class="product-img" style="background-image: url('images/topsoil.jpg');"></div>
+                    <h3>Topsoil</h3>
+                    <p>Premium quality topsoil for gardens, lawns, and landscaping projects. Nutrient-rich and screened.</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-img" style="background-image: url('images/compost.jpg');"></div>
+                    <h3>Compost</h3>
+                    <p>Organic compost to enrich your garden soil. Perfect for vegetable gardens, flower beds, and lawns.</p>
+                </div>
+                
+                <!-- Stone & Aggregates -->
+                <div class="product-card">
+                    <div class="product-img" style="background-image: url('images/dump-rock.jpg');"></div>
+                    <h3>Dump Rock / Gabion Rock</h3>
+                    <p>80-200mm crushed rock for gabion baskets, landscaping, and drainage.</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-img" style="background-image: url('images/crushed-stone-13mm-19mm.jpg');"></div>
+                    <h3>13mm & 19mm Stone</h3>
+                    <p>Crushed stone for concrete, drainage, and landscaping.</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-img" style="background-image: url('images/basecourse-g1-g5.jpg');"></div>
+                    <h3>G1 / G2 / G5 / G6</h3>
+                    <p>Sub-base and base course materials for roads and pavements. Different specifications available.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" style="background: var(--light-bg);">
+        <div class="container">
+            <h2 class="section-title">Why Vaal Triangle Sand and Stone</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-truck"></i>
+                    <h3>Reliable Delivery</h3>
+                    <p>We deliver quality sand, stone, topsoil, and compost directly to your site across the Vaal Triangle.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-seedling"></i>
+                    <h3>Garden & Building</h3>
+                    <p>One-stop shop for construction and gardening materials - from sand to topsoil to compost.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-chart-simple"></i>
+                    <h3>Competitive Pricing</h3>
+                    <p>Affordable rates without compromising on quality. Get a quote today.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-headset"></i>
+                    <h3>Expert Support</h3>
+                    <p>Our team helps you choose the right material for your project.</p>
+                </div>
+            </div>
+
+            <h3 style="margin: 40px 0 20px; color: var(--secondary);">Find Us</h3>
+            <div class="map-container">
+                <!-- EXACT GOOGLE MAPS EMBED FOR VAAL TRIANGLE SAND AND STONE -->
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14317.421324595505!2d27.8111008!3d-26.691044!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e945bbdda34d46f%3A0x288fc4a1dea0607e!2sVaal%20Triangle%20Sand%20and%20Stone!5e0!3m2!1sen!2sza!4v1700000000000!5m2!1sen!2sza" 
+                    width="100%" 
+                    height="350" 
+                    style="border:0; border-radius:20px;" 
+                    allowfullscreen="" 
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <p style="margin-top: 15px; text-align: center;"><i class="fas fa-location-dot"></i> Curie Blvd, Vanderbijlpark C. W. 6, Vanderbijlpark, 1911</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get a Free Quote</h2>
+            <p class="section-sub">Tell us what you need and we'll get back to you within 24 hours.</p>
+            <div class="contact-flex">
+                <div class="contact-form">
+                    <form id="contactForm" action="#" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <select name="product">
+                                <option value="">Select Product</option>
+                                <option>Plaster Sand</option>
+                                <option>Building Sand</option>
+                                <option>River Sand</option>
+                                <option>Crusher Sand</option>
+                                <option>Topsoil</option>
+                                <option>Compost</option>
+                                <option>Dump Rock / Gabion</option>
+                                <option>13mm / 19mm Stone</option>
+                                <option>G1/G2/G5/G6</option>
+                                <option>Other (specify below)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="3" name="message" placeholder="Delivery address, quantity required, and any special requirements..."></textarea>
+                        </div>
+                        
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="popiaConsent" required>
+                            <label for="popiaConsent">I consent to Vaal Triangle Sand and Stone collecting and storing my personal information to provide a quote, as outlined in the <a href="#" id="popiaLink">Privacy Policy</a> (POPIA compliant).</label>
+                        </div>
+                        
+                        <button type="submit" class="btn" style="width:100%;"><i class="fas fa-paper-plane"></i> Send Enquiry</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Contact Details</h3>
+                    <div class="info-detail"><i class="fas fa-phone-alt"></i> <a href="tel:0792991383">079 299 1383</a></div>
+                    <div class="info-detail"><i class="fab fa-whatsapp"></i> <a href="https://wa.me/27792991383">079 299 1383 (WhatsApp)</a></div>
+                    <div class="info-detail"><i class="fas fa-envelope"></i> info@vaaltrianglesand.co.za</div>
+                    <div class="info-detail"><i class="fab fa-facebook-f"></i> <a href="https://www.facebook.com/VaalTriangleSandnStone" target="_blank">Facebook Page</a></div>
+                    <div class="info-detail"><i class="fas fa-map-marker-alt"></i> <a href="https://www.google.com/maps/place/Vaal+Triangle+Sand+and+Stone/@-26.691044,27.8111008,15z" target="_blank">Curie Blvd, Vanderbijlpark, 1911</a></div>
+                    <hr>
+                    <h4>Business Hours</h4>
+                    <p>Monday - Friday: 7:00am – 4:00pm<br>Saturday: 8:00am – 1:00pm<br>Sunday: Closed</p>
+                    <hr>
+                    <p><strong>Delivery areas:</strong> Vanderbijlpark, Vereeniging, Sasolburg, and the greater Vaal Triangle area.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="footer-flex">
+            <div class="footer-col">
+                <h4>Vaal Triangle Sand and Stone</h4>
+                <p>Quality sand, stone, topsoil, and compost supplier in Vanderbijlpark and the Vaal Triangle. Competitive prices, reliable delivery.</p>
+                <p><strong>Information Officer:</strong> [Owner Name]</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <a href="tel:0792991383"><i class="fas fa-phone"></i> 079 299 1383</a>
+                <a href="https://wa.me/27792991383"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                <a href="mailto:info@vaaltrianglesand.co.za"><i class="fas fa-envelope"></i> info@vaaltrianglesand.co.za</a>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/VaalTriangleSandnStone" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/27792991383" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="legal-links">
+            <a href="#" id="footerPrivacyLink">Privacy Policy (POPIA)</a> |
+            <a href="#" id="footerTermsLink">Terms & Conditions (CPA)</a> |
+            <a href="#contact">Contact</a>
+            <p style="margin-top: 20px;">&copy; 2025 Vaal Triangle Sand and Stone. All rights reserved. | POPIA Compliant</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // ============================================
+    // CONTACT DETAILS
+    // ============================================
+    const COMPANY_PHONE = "0792991383";
+    const WHATSAPP_NUMBER = "27792991383";  // Format: 27 + number without 0
+    const COMPANY_EMAIL = "info@vaaltrianglesand.co.za";
+    
+    // ============================================
+    // SSL ENFORCEMENT
+    // ============================================
+    if (location.protocol !== 'https:' && location.hostname !== 'localhost' && !location.hostname.includes('127.0.0.1')) {
+        location.href = 'https://' + location.hostname + location.pathname + location.search;
+    }
+    
+    // ============================================
+    // COOKIE CONSENT
+    // ============================================
+    function setCookie(name, value, days) {
+        let expires = "";
+        if (days) {
+            let date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "") + expires + "; path=/; Secure; SameSite=Strict";
+    }
+    
+    function getCookie(name) {
+        let nameEQ = name + "=";
+        let ca = document.cookie.split(';');
+        for(let i = 0; i < ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+    
+    window.acceptCookies = function() {
+        setCookie("cookies_accepted", "true", 365);
+        document.getElementById("cookieBanner").style.display = "none";
+    };
+    
+    window.onload = function() {
+        if (!getCookie("cookies_accepted")) {
+            document.getElementById("cookieBanner").style.display = "flex";
+        }
+    };
+    
+    // ============================================
+    // POPIA CONSENT & FORM HANDLING
+    // ============================================
+    const form = document.getElementById('contactForm');
+    if (form) {
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const consent = document.getElementById('popiaConsent');
+            if (!consent.checked) {
+                alert("Please consent to the Privacy Policy (POPIA requirement) before submitting.");
+                return false;
+            }
+            
+            const name = document.querySelector('[name="name"]').value;
+            const email = document.querySelector('[name="email"]').value;
+            const phone = document.querySelector('[name="phone"]').value;
+            const product = document.querySelector('[name="product"]').value;
+            const message = document.querySelector('[name="message"]').value;
+            
+            const leadMessage = `🏗️ *NEW LEAD - Vaal Triangle Sand and Stone Website*%0A%0A*Name:* ${name}%0A*Email:* ${email}%0A*Phone:* ${phone}%0A*Product:* ${product}%0A*Message:* ${message}%0A%0AReply to this lead via WhatsApp or call.`;
+            
+            const ownerWhatsApp = WHATSAPP_NUMBER;
+            const waLink = `https://wa.me/${ownerWhatsApp}?text=${leadMessage}`;
+            window.open(waLink, '_blank');
+            
+            alert("Thank you! We'll contact you shortly via WhatsApp.");
+            form.reset();
+        });
+    }
+    
+    // ============================================
+    // POPIA & TERMS PAGES
+    // ============================================
+    function showPrivacyPolicy() {
+        alert(`📜 PRIVACY POLICY (POPIA Compliant)
+        
+Vaal Triangle Sand and Stone respects your privacy. We collect your name, email, phone number, and delivery address only to provide quotes and deliver products. Your information is never shared with third parties without consent.
+
+Information Officer: [Owner Name]
+Email: ${COMPANY_EMAIL}
+Phone: ${COMPANY_PHONE}
+
+You have the right to access, correct, or delete your personal data. Contact us for any requests.`);
+    }
+    
+    function showTerms() {
+        alert(`📋 TERMS & CONDITIONS (CPA Compliant)
+        
+1. Quotes are valid for 7 days.
+2. Delivery times are estimates based on partner availability.
+3. Payment terms: 30% deposit required for first-time clients.
+4. Claims: Please inspect materials upon delivery.
+5. Disputes: Refer to Good-faith negotiation then arbitration.`);
+    }
+    
+    document.getElementById('cookiePrivacyLink')?.addEventListener('click', (e) => { e.preventDefault(); showPrivacyPolicy(); });
+    document.getElementById('popiaLink')?.addEventListener('click', (e) => { e.preventDefault(); showPrivacyPolicy(); });
+    document.getElementById('footerPrivacyLink')?.addEventListener('click', (e) => { e.preventDefault(); showPrivacyPolicy(); });
+    document.getElementById('footerTermsLink')?.addEventListener('click', (e) => { e.preventDefault(); showTerms(); });
+    
+    // Logo fallback: If logo.jpg doesn't load, show text logo
+    const logoImg = document.querySelector('.logo img');
+    if (logoImg) {
+        logoImg.addEventListener('error', function() {
+            this.style.display = 'none';
+            const textLogo = document.querySelector('.logo-text');
+            if (textLogo) textLogo.style.display = 'block';
+        });
+    }
+    
+    // Smooth scroll for navigation
+    document.querySelectorAll('.nav-links a, .btn, .header-phone').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+            if (href && href.startsWith('#')) {
+                e.preventDefault();
+                const target = document.querySelector(href);
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                    document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
+                    if (this.classList.contains('nav-links')) this.classList.add('active');
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>
